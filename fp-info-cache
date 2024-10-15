@@ -1,4 +1,4 @@
-23698129434775531
+23699853407723305
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -355,6 +355,13 @@ Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pd
 battery CR-3032 coin cell vertical
 0
 2
+2
+Battery
+CR927
+
+
+0
+3
 2
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB

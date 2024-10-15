@@ -465,8 +465,8 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
-      "plot": "prod/clear_60x60_g400/",
+      "netlist": "solartap_mcu_clear_400.net",
+      "plot": "prod/rev_d/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

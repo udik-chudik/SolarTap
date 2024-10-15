@@ -1104,6 +1104,218 @@
 				)
 			)
 		)
+		(symbol "Device:Crystal_GND23_Small"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y1"
+				(at 7.62 2.032 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "32Mhz"
+				(at 7.62 -3.556 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 3, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "SJK-7U-32.000-16-10-40-B-20"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND23_Small_0_1"
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND23_Small_1_1"
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2527,28 +2739,42 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LT1963AxST-3.3"
+		(symbol "Regulator_Linear:TLV71209_SOT23-5"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
-				(at 0 10.16 0)
+			(property "Reference" "U"
+				(at -3.81 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "RS3002-3.3SYF5"
-				(at 0 7.62 0)
+			(property "Value" "TLV71209_SOT23-5"
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-				(at 0 -11.43 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv712.pdf"
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2556,16 +2782,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223"
+			(property "Description" "300mA Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2574,7 +2791,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LDO voltage regulator fixed"
+			(property "ki_keywords" "LDO Regulator Fixed Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2583,7 +2800,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT*223*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2592,10 +2809,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LT1963AxST-3.3_0_1"
+			(symbol "TLV71209_SOT23-5_0_1"
 				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2605,11 +2822,11 @@
 					)
 				)
 			)
-			(symbol "LT1963AxST-3.3_1_1"
+			(symbol "TLV71209_SOT23-5_1_1"
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2624,10 +2841,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 10.16 2.54 180)
+				(pin power_in line
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "OUT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2642,10 +2859,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -10.16 2.54 0)
+				(pin input line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "IN"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2653,6 +2870,42 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2988,6 +3241,12 @@
 		(uuid "16015fc5-2230-4f22-8373-18952bef85cf")
 	)
 	(junction
+		(at 44.45 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e892ebb-bf53-4bfa-ad82-428736947d10")
+	)
+	(junction
 		(at 179.07 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3006,6 +3265,12 @@
 		(uuid "88141b63-649a-4372-a07a-46ef6942d8eb")
 	)
 	(junction
+		(at 207.01 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b07b2061-c3b6-46b6-9141-b33be2417811")
+	)
+	(junction
 		(at 78.74 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3016,6 +3281,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c911c4f8-23e2-477e-b452-97e5a2b5c2ff")
+	)
+	(junction
+		(at 44.45 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2d3db75-69c1-4263-93f5-8cfdde57ea9e")
 	)
 	(no_connect
 		(at 59.69 119.38)
@@ -3094,10 +3365,6 @@
 		(uuid "997db0da-0e8a-4f11-ad32-ebb3ec37b977")
 	)
 	(no_connect
-		(at 59.69 132.08)
-		(uuid "a4a6f00c-2134-4fb8-b32b-ae0aad107273")
-	)
-	(no_connect
 		(at 105.41 170.18)
 		(uuid "a5206d6a-76d7-4314-b487-0dc573e36ab2")
 	)
@@ -3136,10 +3403,6 @@
 	(no_connect
 		(at 243.84 59.69)
 		(uuid "ba327f48-d697-4e6c-baa2-4200bef0e8db")
-	)
-	(no_connect
-		(at 59.69 142.24)
-		(uuid "bcb40e19-2605-4667-94b9-24f4da88e021")
 	)
 	(no_connect
 		(at 105.41 175.26)
@@ -3215,6 +3478,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 31.75) (xy 207.01 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5806c1-8fd5-4b98-80af-3f6d2ea977c7")
+	)
+	(wire
+		(pts
 			(xy 241.3 100.33) (xy 241.3 104.14)
 		)
 		(stroke
@@ -3225,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 29.21) (xy 179.07 29.21)
+			(xy 179.07 29.21) (xy 185.42 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3335,6 +3608,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 137.16) (xy 48.26 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9efb78-5a5d-46f1-bc99-b15562cfa3a9")
+	)
+	(wire
+		(pts
 			(xy 236.22 34.29) (xy 243.84 34.29)
 		)
 		(stroke
@@ -3355,6 +3638,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 137.16) (xy 41.91 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f11dba-606f-413a-9c44-f8071ddc36fa")
+	)
+	(wire
+		(pts
 			(xy 86.36 60.96) (xy 96.52 60.96)
 		)
 		(stroke
@@ -3362,6 +3655,26 @@
 			(type default)
 		)
 		(uuid "3328bb20-342c-4377-9356-ed0bba7cb94f")
+	)
+	(wire
+		(pts
+			(xy 200.66 29.21) (xy 207.01 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343659cb-d3a5-4b8c-8357-a0b78983d503")
+	)
+	(wire
+		(pts
+			(xy 44.45 132.08) (xy 44.45 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3680a3f3-8d55-46ac-9002-f9df0e0e887e")
 	)
 	(wire
 		(pts
@@ -3415,6 +3728,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 139.7) (xy 44.45 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49569fd1-d8f6-4c32-8fb7-bf88757ede9c")
+	)
+	(wire
+		(pts
 			(xy 143.51 127) (xy 143.51 124.46)
 		)
 		(stroke
@@ -3455,7 +3778,17 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 29.21) (xy 207.01 33.02)
+			(xy 27.94 132.08) (xy 30.48 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a75cf8-0911-4d3e-8574-5021a21f09d6")
+	)
+	(wire
+		(pts
+			(xy 207.01 29.21) (xy 207.01 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3515,6 +3848,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 142.24) (xy 30.48 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc83da8-ac77-4c15-bcc2-68390ae33ea1")
+	)
+	(wire
+		(pts
 			(xy 165.1 29.21) (xy 167.64 29.21)
 		)
 		(stroke
@@ -3552,6 +3895,16 @@
 			(type default)
 		)
 		(uuid "792c6d69-3939-4747-95e7-44bc64720f55")
+	)
+	(wire
+		(pts
+			(xy 44.45 132.08) (xy 59.69 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e74de8-f619-4062-8876-af24c8fbe113")
 	)
 	(wire
 		(pts
@@ -3635,16 +3988,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 39.37) (xy 193.04 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93f39f3a-4fef-4e27-bd3b-b20fcb38e87e")
-	)
-	(wire
-		(pts
 			(xy 140.97 118.11) (xy 149.86 118.11)
 		)
 		(stroke
@@ -3695,13 +4038,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 29.21) (xy 207.01 29.21)
+			(xy 44.45 142.24) (xy 59.69 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a43e95ea-5297-476c-81b2-d4b266de2fb7")
+		(uuid "a458c1cf-d568-4a9f-a060-9799c774ff58")
 	)
 	(wire
 		(pts
@@ -3765,6 +4108,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 142.24) (xy 44.45 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2211be8-f3d0-4fb5-a0c4-af393d98989e")
+	)
+	(wire
+		(pts
 			(xy 124.46 132.08) (xy 124.46 133.35)
 		)
 		(stroke
@@ -3792,6 +4145,26 @@
 			(type default)
 		)
 		(uuid "c908892b-7dfc-457a-a830-cf0eb3580f08")
+	)
+	(wire
+		(pts
+			(xy 207.01 31.75) (xy 207.01 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9dec6c0-f14d-4b4d-81a3-c629ff4bf8f1")
+	)
+	(wire
+		(pts
+			(xy 35.56 132.08) (xy 44.45 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2347fa-224f-40ef-84c6-66ec50ec5bd6")
 	)
 	(wire
 		(pts
@@ -3845,6 +4218,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 39.37) (xy 193.04 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7dfe537-d216-4423-9429-bf56db6f65da")
+	)
+	(wire
+		(pts
 			(xy 105.41 124.46) (xy 124.46 124.46)
 		)
 		(stroke
@@ -3893,6 +4276,46 @@
 		)
 		(uuid "f8b83004-d9da-4224-bb4d-0be932462d79")
 	)
+	(text "0.9 reg output"
+		(exclude_from_sim no)
+		(at 34.544 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23c5dacf-5451-4127-8dfc-d7e920d6965c")
+	)
+	(text "1.3 output from LDO"
+		(exclude_from_sim no)
+		(at 31.75 76.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23f2af75-bf22-4114-9ce4-224ce23e01f7")
+	)
+	(text "22 pF for 10 turns 61*61 mm\nw=1 mm, gap=0.4 mm"
+		(exclude_from_sim no)
+		(at 145.288 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4fcf7813-0d59-4669-842a-95d093edfa2e")
+	)
+	(text "3.3 supply"
+		(exclude_from_sim no)
+		(at 36.83 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8192b3f-5823-4e4e-ac53-f901519b2ccf")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 226.06 36.83 270)
@@ -3903,7 +4326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "039c2089-6eb3-4350-9560-fc928e8245a5")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR027"
 			(at 219.71 36.83 0)
 			(effects
 				(font
@@ -3954,7 +4377,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR022")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4036,7 +4459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "061cb118-11fe-4d06-ba86-d43ad60dc162")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR05"
 			(at 44.45 60.96 0)
 			(effects
 				(font
@@ -4086,7 +4509,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR08")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4102,7 +4525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0931b09c-f476-4d02-853c-aa1bfcbe57e0")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR09"
 			(at 44.45 81.28 0)
 			(effects
 				(font
@@ -4152,7 +4575,72 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR03")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11a49ae3-c534-491e-a326-20976bbb8cee")
+		(property "Reference" "#PWR04"
+			(at 54.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21fc7ebf-de94-4a2f-b716-54579ba5edd2")
+		)
+		(instances
+			(project "solartap_mcu_clear"
+				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4168,7 +4656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13fa6ce5-c809-427f-ab8a-632e2356169c")
-		(property "Reference" "TP3"
+		(property "Reference" "TP1"
 			(at 36.068 152.4 90)
 			(effects
 				(font
@@ -4217,7 +4705,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "TP3")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4233,7 +4721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "179c4803-28f1-4d70-98d2-e87e78280f5c")
-		(property "Reference" "C13"
+		(property "Reference" "C11"
 			(at 176.53 34.2962 0)
 			(effects
 				(font
@@ -4287,7 +4775,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4302,7 +4790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bf29788-34dd-4cde-b10d-e9b658d4f09d")
-		(property "Reference" "C6"
+		(property "Reference" "C3"
 			(at 59.944 62.992 90)
 			(effects
 				(font
@@ -4356,7 +4844,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "C6")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4372,7 +4860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "204854d2-683c-40d2-ab3b-e011c96e7998")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 255.27 92.71 0)
 			(effects
 				(font
@@ -4422,7 +4910,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4508,7 +4996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3539bc8c-b9fe-40fc-a470-0674c5856bcf")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 207.01 48.26 0)
 			(effects
 				(font
@@ -4558,7 +5046,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4574,7 +5062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "360a4d2d-2f9d-4e2e-9334-79b451017c77")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR028"
 			(at 229.87 110.49 0)
 			(effects
 				(font
@@ -4624,7 +5112,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR036")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4640,7 +5128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "375365ad-89fb-4f51-b421-bf67b010d3fb")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR014"
 			(at 92.71 60.96 0)
 			(effects
 				(font
@@ -4691,7 +5179,7 @@
 		(instances
 			(project ""
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR05")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4706,7 +5194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38b0e30d-e7bd-4c39-b52a-545f1fcd8ef9")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 59.944 78.232 90)
 			(effects
 				(font
@@ -4760,7 +5248,77 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "C3")
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 33.02 132.08 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38c1b8d4-17f3-43b9-b2e2-975cd72ddd5c")
+		(property "Reference" "C1"
+			(at 36.83 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12p"
+			(at 32.004 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9184a05b-1f08-45b4-b5ee-1ce88845f08d")
+		)
+		(pin "2"
+			(uuid "3a5c705f-fcab-4434-8d66-30c507dd0526")
+		)
+		(instances
+			(project "solartap_mcu_clear"
+				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4776,7 +5334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3971824b-8c29-4cb2-9f8a-b489433cbdda")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 124.46 139.7 0)
 			(effects
 				(font
@@ -4826,7 +5384,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5013,6 +5571,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 27.94 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b1c275c-7efd-475f-bd65-a72e3c507c77")
+		(property "Reference" "#PWR01"
+			(at 21.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "079f28fa-8cf4-46f6-8028-76e5e6e00185")
+		)
+		(instances
+			(project "solartap_mcu_clear"
+				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 124.46 116.84 0)
 		(unit 1)
@@ -5022,7 +5645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c4e4f75-d6aa-463e-9011-a66cf08d2571")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 127 115.5762 0)
 			(effects
 				(font
@@ -5076,7 +5699,72 @@
 		(instances
 			(project ""
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "C10")
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f356d23-9070-4c9f-bcd0-235f22c4760d")
+		(property "Reference" "#PWR02"
+			(at 21.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c92748d-bc17-4ce2-856c-8d0f2faaecd8")
+		)
+		(instances
+			(project "solartap_mcu_clear"
+				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5092,7 +5780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fff00ba-0ce8-4c1e-8618-756985a1ff96")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR022"
 			(at 193.04 48.26 0)
 			(effects
 				(font
@@ -5142,7 +5830,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR027")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5158,7 +5846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5424b0d5-de4d-4943-8d12-f9245a09610b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR023"
 			(at 205.74 128.27 0)
 			(effects
 				(font
@@ -5208,7 +5896,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR029")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5224,7 +5912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5470631e-d2c0-4202-b9ec-bc7924a14eba")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR031"
 			(at 259.08 73.66 0)
 			(effects
 				(font
@@ -5274,7 +5962,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR023")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5493,6 +6181,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 40.64 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c6a532f-c840-4dd2-b140-a3133eb64105")
+		(property "Reference" "#PWR03"
+			(at 34.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22a20e53-79ee-47a8-b7af-0107d1fff8c2")
+		)
+		(instances
+			(project "solartap_mcu_clear"
+				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 50.8 76.2 270)
 		(mirror x)
 		(unit 1)
@@ -5501,7 +6254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6169a7a9-d6ff-4ca9-9482-dc6b972b6810")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 44.45 76.2 0)
 			(effects
 				(font
@@ -5551,7 +6304,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5567,7 +6320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61731286-745d-46d2-82cc-11fa060e4089")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR032"
 			(at 266.7 73.66 0)
 			(effects
 				(font
@@ -5617,7 +6370,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR024")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5633,7 +6386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66aa0f43-4fd4-4ed6-b9fc-903eacc5e7d7")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR026"
 			(at 219.71 34.29 0)
 			(effects
 				(font
@@ -5684,7 +6437,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR021")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5901,7 +6654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e30b36f-3463-4736-a3fa-9ecbf8d289d6")
-		(property "Reference" "TP1"
+		(property "Reference" "TP3"
 			(at 51.308 147.32 90)
 			(effects
 				(font
@@ -5950,7 +6703,7 @@
 		(instances
 			(project ""
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "TP1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -5966,7 +6719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f88fb08-c020-4613-93d5-aa012a1dc67a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 138.43 152.4 0)
 			(effects
 				(font
@@ -6017,7 +6770,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6033,7 +6786,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80f63812-b156-466f-a284-47b8aefd89d9")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 44.45 71.12 0)
 			(effects
 				(font
@@ -6083,7 +6836,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6099,7 +6852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8503453c-8ed2-4af5-b00a-0c4565a3097e")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 127 128.2762 0)
 			(effects
 				(font
@@ -6153,7 +6906,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6169,7 +6922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8508b16e-83a1-4909-98bc-79efffcbf4ab")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 44.45 66.04 0)
 			(effects
 				(font
@@ -6219,7 +6972,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6235,7 +6988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "869ed82d-4d89-43fd-9112-2c931b6142df")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR013"
 			(at 82.55 191.77 0)
 			(effects
 				(font
@@ -6285,7 +7038,7 @@
 		(instances
 			(project ""
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR01")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6301,7 +7054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93579ee6-2c03-475e-943d-4dd2cd7f6b66")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR021"
 			(at 179.07 48.26 0)
 			(effects
 				(font
@@ -6351,7 +7104,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR028")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6366,7 +7119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "940e0904-a99f-4bbd-998f-0bea78108e3a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR010"
 			(at 44.45 86.36 0)
 			(effects
 				(font
@@ -6416,7 +7169,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR02")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6432,7 +7185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ab24492-5e24-43fb-8d69-021f2c1df8ac")
-		(property "Reference" "TP6"
+		(property "Reference" "TP4"
 			(at 232.41 95.7579 0)
 			(effects
 				(font
@@ -6483,7 +7236,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "TP6")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -6499,7 +7252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e382418-c946-4f0b-a2f4-543f961ec1e3")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG01"
 			(at 207.01 19.685 0)
 			(effects
 				(font
@@ -6549,7 +7302,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6565,7 +7318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5e13c24-2dd7-4c75-b35f-2d148d68b855")
-		(property "Reference" "C1"
+		(property "Reference" "C8"
 			(at 59.944 88.646 90)
 			(effects
 				(font
@@ -6619,7 +7372,7 @@
 		(instances
 			(project ""
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "C1")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6635,7 +7388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab178628-50b7-42e7-951a-08fce681af1e")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 267.97 102.87 0)
 			(effects
 				(font
@@ -6685,7 +7438,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6710,7 +7463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR2032"
+		(property "Value" "CR927"
 			(at 209.55 134.0484 0)
 			(effects
 				(font
@@ -6719,7 +7472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_MPD_BC2003_1x2032"
+		(property "Footprint" "Battery:CR927"
 			(at 205.74 133.096 90)
 			(effects
 				(font
@@ -6771,7 +7524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afa0a06d-08b4-4117-9ef7-5675329c2814")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 124.46 106.68 0)
 			(effects
 				(font
@@ -6821,7 +7574,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6836,7 +7589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5b8b28f-95a3-4024-abd6-f7f8c9010a15")
-		(property "Reference" "C2"
+		(property "Reference" "C7"
 			(at 59.944 83.312 90)
 			(effects
 				(font
@@ -6890,7 +7643,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "C2")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6906,7 +7659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b864e370-8ff3-420d-abf8-0703ffed2c66")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR012"
 			(at 77.47 191.77 0)
 			(effects
 				(font
@@ -6956,7 +7709,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR016")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6972,7 +7725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c88acaf4-f001-4ba1-ac50-aa5cfbbca4a7")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG03"
 			(at 267.97 104.775 0)
 			(effects
 				(font
@@ -7022,7 +7775,7 @@
 		(instances
 			(project ""
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#FLG01")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -7038,7 +7791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca82928a-a78c-4eda-bb7c-9f223981ae1c")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 205.74 146.05 0)
 			(effects
 				(font
@@ -7088,7 +7841,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7248,6 +8001,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal_GND23_Small")
+		(at 44.45 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccd615df-0da3-451e-a32f-e579a1bcd25d")
+		(property "Reference" "Y1"
+			(at 42.418 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "32Mhz"
+			(at 48.006 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+			(at 44.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 3, small symbol"
+			(at 44.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "SJK-7U-32.000-16-10-40-B-20"
+			(at 44.45 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "86f13721-72b1-429e-a97c-b9664dd6306c")
+		)
+		(pin "3"
+			(uuid "086d98bf-9b3e-4384-ba49-012b4969edaa")
+		)
+		(pin "2"
+			(uuid "a846d257-3932-466a-9d5b-d5c85c63eb49")
+		)
+		(pin "1"
+			(uuid "67b6989a-fa86-44a7-9958-7990ac7073ad")
+		)
+		(instances
+			(project "solartap_mcu_clear"
+				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV71209_SOT23-5")
+		(at 193.04 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce4e992f-7d5e-4804-8cce-34c0aa3cfc0d")
+		(property "Reference" "U2"
+			(at 193.04 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS3002-3.3SYF5"
+			(at 193.04 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 193.04 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv712.pdf"
+			(at 193.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5"
+			(at 193.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c4d1c42-a080-4532-957e-a28410d164cf")
+		)
+		(pin "1"
+			(uuid "457a9ac7-db25-4a0c-8e38-0110bdee477b")
+		)
+		(pin "4"
+			(uuid "65b88b96-4ff9-45b4-bf2e-106a16314cd6")
+		)
+		(pin "3"
+			(uuid "c9b42a98-2542-490e-b7f2-9a999483e77e")
+		)
+		(pin "5"
+			(uuid "81bf6051-5212-4a5e-834d-c3eed90402aa")
+		)
+		(instances
+			(project ""
+				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 55.88 66.04 270)
 		(unit 1)
@@ -7256,7 +8169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d186c276-b180-4eeb-8b53-15dd8df87830")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 59.944 68.072 90)
 			(effects
 				(font
@@ -7310,7 +8223,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7385,77 +8298,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LT1963AxST-3.3")
-		(at 193.04 31.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0d3e2f6-484d-4f04-8a1a-4404644ce36b")
-		(property "Reference" "U2"
-			(at 193.04 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RS3002-3.3SYF5"
-			(at 193.04 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 193.04 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf"
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223"
-			(at 193.04 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7885c07f-61f6-4313-baad-f03bd2e91a0b")
-		)
-		(pin "2"
-			(uuid "d2a4c7b5-4950-4ff8-b07c-daceffd34824")
-		)
-		(pin "3"
-			(uuid "1c8bd45c-442a-49cc-8694-8f7f29864dc9")
-		)
-		(instances
-			(project ""
-				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 72.39 185.42 0)
 		(unit 1)
@@ -7465,7 +8307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e28d66a1-8d0e-4a09-9500-659e8437a118")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR011"
 			(at 72.39 191.77 0)
 			(effects
 				(font
@@ -7515,7 +8357,77 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR017")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 33.02 142.24 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e75aaecb-483f-4171-ae32-5e5aea1ad7b9")
+		(property "Reference" "C2"
+			(at 37.084 144.526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12p"
+			(at 32.512 144.526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 33.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 33.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d26de05f-d296-4491-b6cc-f07c4171d0f3")
+		)
+		(pin "2"
+			(uuid "8554f931-9b58-46fb-a0d5-7aa9abba1a21")
+		)
+		(instances
+			(project "solartap_mcu_clear"
+				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7531,7 +8443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea845c11-5460-4ac5-ab0c-0dc4506dff23")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR016"
 			(at 92.71 71.12 0)
 			(effects
 				(font
@@ -7582,7 +8494,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR010")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7597,7 +8509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb604b46-613e-40e5-bd7a-f6a4af2f8f73")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 59.944 73.152 90)
 			(effects
 				(font
@@ -7651,7 +8563,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7667,7 +8579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb8cbe8a-361a-4ece-8ca5-a43d8644fce0")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR029"
 			(at 241.3 100.33 0)
 			(effects
 				(font
@@ -7717,7 +8629,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR034")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7733,7 +8645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2b1475a-6e05-40fc-8ff6-a52955984496")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR020"
 			(at 168.91 29.21 0)
 			(effects
 				(font
@@ -7784,7 +8696,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR030")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7800,7 +8712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdf0406b-48b9-47d0-877b-1752d3c66f0a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 92.71 66.04 0)
 			(effects
 				(font
@@ -7851,7 +8763,7 @@
 		(instances
 			(project "solartap_mcu"
 				(path "/35041ce6-7fe6-429a-9d76-584641d55043"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
