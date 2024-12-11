@@ -1,0 +1,27 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "2",
+        "cols": "4"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "5mm",
+        "hwidth": "5mm",
+        "vcount": "2",
+        "hcount": "2",
+        "fillet": "1mm"
+    },
+    "cuts": {
+        "type": "mousebites"
+    },
+    "framing": {
+        "type": "railstb"
+    },
+    "fiducials": {
+        "type": "4fid",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm"
+    }
+}
